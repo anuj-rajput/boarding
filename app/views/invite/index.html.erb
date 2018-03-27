@@ -23,8 +23,8 @@
 
   <% unless @message %>
     <!-- <h4 class="" style="margin-bottom: 40px;"><%= @metadata[:title] %></h4> -->
-    <h4 class="" style="margin-bottom: 40px">Wooplr</h4>
-    <h3 class="" style="margin-bottom: 40px">Start your free online store</h4>
+    <h2 class="" style="margin-bottom: 40px">Wooplr</h4>
+    <h4 class="" style="margin-bottom: 40px">Start your free online store</h4>
 
     <%= form_tag("submit", method: "post", style: "text-align: left", onsubmit: "didSubmit()") do %>
       <%= label_tag(:first_name, t(:first_name_label)) %>
